@@ -14,6 +14,7 @@ class Trip(Base):
     id = Column(Integer, primary_key=True)
     title = Column(String)
     rating = Column(String)
+    reviews = Column(String)
     location = Column(String)
     latitude = Column(Float)
     longitude = Column(Float)
